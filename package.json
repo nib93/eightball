@@ -1,0 +1,15 @@
+{
+  "name": "eightball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "int-test": "mocha --require babel-core/register --recursive test"
+  },
+  "author": "neeti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
